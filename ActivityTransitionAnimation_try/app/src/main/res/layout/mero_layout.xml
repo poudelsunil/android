@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/llMeroLayoutRoot"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"
+        android:text="Restart"
+        android:id="@+id/btnRestart"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/llFirstLayout"
+        android:orientation="vertical"
+        android:background="#f00">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/llSecondLayout"
+        android:orientation="horizontal"
+        android:background="#00f">
+
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Left"
+            android:id="@+id/btnMoveLeft"/>
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Right"
+            android:id="@+id/btnMoveRight"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

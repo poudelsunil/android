@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@android:id/text1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingLeft="20dp" android:text=" : "/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@android:id/text2" android:editable="false"/>
+
+</LinearLayout>

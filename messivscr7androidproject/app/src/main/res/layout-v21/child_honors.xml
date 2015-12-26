@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imgVPlayer1Img"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:src="@drawable/aaa"
+            android:scaleType="fitXY"
+            android:layout_gravity="start"/>
+
+        <ImageView
+            android:id="@+id/imgVtrophy11"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ballondor"
+            android:visibility="gone"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imgVtrophy12"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/champsleague"
+            android:visibility="gone"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:id="@+id/imgVtrophy13"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clubworldcup"
+            android:visibility="gone"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:id="@+id/imgVtrophy14"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/communityshield"
+            android:visibility="gone"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:id="@+id/imgVtrophy15"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/copadelrey"
+            android:scaleType="fitXY"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/imgVtrophy16"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eurosupercup"
+            android:visibility="gone"
+            android:scaleType="fitXY"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvPlayer1Name"
+            android:text="messi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tvTrophyName11"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvTrophyName13"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvTrophyName12"
+            android:layout_height="match_parent"
+            android:layout_width="45dp"/>
+        <TextView
+            android:id="@+id/tvTrophyName14"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvTrophyName15"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvTrophyName16"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvTrophyTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+
+        <ImageView
+            android:id="@+id/imgVtrophy21"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ballondor"
+            android:visibility="gone"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imgVtrophy22"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/champsleague"
+            android:visibility="gone"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:id="@+id/imgVtrophy23"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clubworldcup"
+            android:visibility="gone"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:id="@+id/imgVtrophy24"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/communityshield"
+            android:visibility="gone"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:id="@+id/imgVtrophy25"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/copadelrey"
+            android:scaleType="fitXY"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/imgVtrophy26"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eurosupercup"
+            android:visibility="gone"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:id="@+id/imgVPlayer2Img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/aaa"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+
+        <TextView
+            android:id="@+id/tvTrophyName21"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvTrophyName22"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvTrophyName23"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvTrophyName24"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvTrophyName25"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvTrophyName26"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvTrophyTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"            />
+        <TextView
+            android:id="@+id/tvPlayer2Name"
+            android:text="ronaldo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

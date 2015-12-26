@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyCustumListView</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <array name="myListData">
+        <item>Alpha</item>
+        <item>Beta</item>
+        <item>C</item>
+        <item>Donut</item>
+        <item>E</item>
+        <item>F</item>
+        <item>Gingerbread</item>
+        <item>Honeycomb</item>
+        <item>IcecremSwanwise</item>
+        <item>JellyBean</item>
+        <item>Kitkat</item>
+        <item>Lollipop</item>
+        <item>M</item>
+
+    </array>
+
+</resources>

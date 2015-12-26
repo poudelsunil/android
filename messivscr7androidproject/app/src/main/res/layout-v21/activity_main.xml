@@ -1,0 +1,151 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/material_blue_grey_800"
+            android:orientation="vertical" >
+
+             <FrameLayout
+                android:id="@+id/frame_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                 <LinearLayout
+
+                     android:id="@+id/starting_view"
+
+
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:background="#ff1da9ee"
+                     android:visibility="visible"
+                     android:orientation="vertical">
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="Messi Vs Ronaldo "/>
+                     <ImageView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+
+                         android:src="@drawable/aaa"
+                         android:scaleType="fitXY"/>
+
+                         android:src="@android:drawable/alert_light_frame"/>
+                 </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/main_stats_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#aaa"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+
+                    <android.support.v4.view.ViewPager
+                        android:layout_height="match_parent"
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:id="@+id/pager">
+
+
+                        <android.support.v4.view.PagerTitleStrip
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp"
+                            android:layout_gravity="top"
+                            android:background="#ff6688"
+                            android:id="@+id/title"
+
+                            ></android.support.v4.view.PagerTitleStrip>
+
+
+                    </android.support.v4.view.ViewPager>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Main Stats :  Date : 2014/2015"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/honours_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#aabbcc"
+                    android:visibility="gone">
+                    <ExpandableListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/expLvHonours">
+
+                    </ExpandableListView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/abilities_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#1000"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abilities "/>
+                </LinearLayout>
+                 <LinearLayout
+                     android:id="@+id/calendar_year_status_details"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:background="#1100"
+                     android:visibility="gone">
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="Calendar Year Status"/>
+                 </LinearLayout>
+        </FrameLayout>
+
+
+        </LinearLayout>
+
+
+        <!--yo Navigation Drawer ko fragment ho -->
+
+
+        <fragment
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            app:layout="@layout/fragment_nagivation_drawer"
+            android:layout_gravity="start"
+            android:name="bluetooth.majorproject.navigationdrawer.NagivationDrawerFragment"
+            android:id="@+id/nagivationDrawer"
+            tools:layout="@layout/fragment_nagivation_drawer" />
+<!--
+
+            android:id="@+id/nagivationDrawer"
+            android:layout_gravity="start"
+            android:name="bluetooth.majorproject.navigationdrawer.NagivationDrawerFragment"
+            tools:layout="@layout/fragment_nagivation_drawer" />
+-->
+
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

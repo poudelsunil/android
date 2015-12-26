@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FrameLayoutWithSpneer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="menuItem">
+        <item>"A ."</item>
+        <item>"B ."</item>
+        <item>"C ."</item>
+    </string-array>
+</resources>

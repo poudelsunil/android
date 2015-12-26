@@ -1,0 +1,240 @@
+<resources>
+    <string name="app_name">Messi Vs Cr7</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="menu_item">
+        <item>Main Stats</item>
+        <item>Honours</item>
+        <item>Abilities</item>
+        <item>Calendar Year Status</item>
+        <item>All Time Stats</item>
+        <item>Have Your Say</item>
+        <item>Records</item>
+        <item>International Stats</item>
+        <item>Articles</item>
+    </string-array>
+
+
+    <string-array name="Messiko_1stRow">
+        <item>
+
+"It seems as if Lionel Messi breaks a goalscoring record every other week, such is his mindblowing knack for finding the back of the net. He became Barcelona&apos;s all time leading scorer at the age of 24 AND has broken Gerd Muller&apos;s 39 year old record for the most goals scored in a single European season (73). Astonishing.
+He is simply one of the greatest goalscorers of all time and will no doubt set even more practically unbreakable records throughout his career."
+
+
+
+        </item>
+        <item>
+
+           " Heading is one of the few aspects of Messi&apos;s game that is not widely considered as being a world class attribute; not surprising considering his lack of height.
+He is far from poor with his head though and chances are he will punish you if he&apos;s presented with a decent heading opporunity. Many will remember he famously headed his team into a 2 goal lead against Man Utd in the 2009 Champions League final."
+        </item>
+        <item>
+
+"Messi&apos;s vision and creativity with a dead ball is what sets him apart from most free-kick specialists. His ability to identify a spot and a route to that spot that eludes all opposing players in his way is simply pure class.
+
+He perhaps lacks the force that Ronaldo can get behind a dead ball, but it&apos;s the finesse that makes his free-kicks special."
+
+
+        </item>
+        <item>
+
+            "Messi&apos;s overall penalty record can almost only be considered average, having scored 20 from 27 for Barca as of February 2012.
+
+Similarly to free-kicks, Messi probably lacks the power that Ronaldo can put into his spot kicks, which can be even more effective from 12 yards out."
+
+        </item>
+        <item>
+"Messi has a near perfect combination of technique, speed, balance and intelligence which give him the uncanny ability to sprint into a crowd of players and come out the other side with the ball still at his feet and in complete control.
+
+Whilst Messi isn&apos;t the fastest of sprinters, the speed at which his feet can move can seem almost impossible and combined with his abundance of skill, can often create the illusion that the ball is just glued to his feet."
+
+
+        </item>
+        <item>
+
+"At 5 foot 7 inches, Messi isn&apos;t the tallest of guys and in his younger days, was in real danger of being overlooked (quite literally) due to his slight build and lack of physical prowess.
+
+Luckily (for him and for us), his breathtaking, natural talent shone through. And his size can be quite deceptive! He is perfectly capable of holding his own against his larger opponents and can pack some serious power behind his shots."
+
+        </item>
+        <item>
+"For someone with so much skill and so many solo goals to his name, Messi has a remarkable reputation as a team player and is very rarely accused of holding onto the ball longer than he should have done. His scoring record is obviously closely matched by Ronaldo, but it&apos;s the assists count that shows a clear gap in Messi&apos;s favour."
+
+
+        </item>
+        <item>
+
+            Unsurprisingly, due to his lightning quick feet and skill, Messi is hacked at and kicked countless times almost every game, but where some players would go down, rolling around in  agony, Messi usually does everything he can to stay on his feet and continue the attack.
+
+He is of course no saint and can show petulance and frustration at times, but in general, this behaviour is usually seen as the exception rather than the norm for Messi.
+
+Messi came out of the 2013/14 season with just 3 yellow cards to his name in all competitions.
+        </item>
+
+
+        <item>
+
+           " The final scores highlight just how close the battle is between these 2 players and just how lucky we are to have them both playing in one generation.
+
+Messi dropped points mainly due to his physical limitations in areas such as heading, strength and power, but he topped his opponent on natural ability and technique on the ball, as well as his effectiveness on the rest of the team.
+
+It is perhaps the initiative he holds on the latter points that has led to the more widely accepted view that Messi is the outright, best player in the world today, and in many people&apos;s opinion - the best ever."
+        </item>
+
+
+
+    </string-array>
+
+
+    <string-array name="ronaldoko_1stRow">
+        <item>
+"Remarkably, Ronaldo tends to match Messi&apos;s ability to find the back of the net and can also be considered as one of the greatest goalscorers of all time.
+
+As of the end of the 2013/14 season, he had scored 177 goals in 165 league appearances for Real Madrid which is nothing short of incredible. He continues to break Madrid&apos;s goalscoring records, the most impressive being his 60 goal
+            haul in all competitions in the 2011/12 season; following up with 55 goals in 2012/13 and 51 in 2013/14"
+ </item>
+        <item>
+
+"For someone with such elegant skills and technique on the ground, Ronaldo can leap and power his head through the ball like a League Two centre back, with many of his countless goals coming via his noggin.
+
+The fact that Ronaldo towers over the much smaller Messi makes it no surprise that he is far more effective with his head."
+
+        </item>
+<item>
+
+
+"Ronaldo&apos;s combination of sheer power and ability to make a ball move in all manner of directions place him amongst the most feared dead ball specialists. Few can match the pure theatre created as CR7 takes his trademark stance over a dead ball.
+
+However, such is the power he attampts to pile into his free-kick attempts, a large percentage often strike the wall or sail over the bar."
+
+
+</item>
+        <item>
+
+
+"Ronaldo on the other hand has an unrivalled record from the penalty spot. As of February 2012, he had scored 23 from 24 penalties for Real and 11 from 14 in his days at Old Trafford, which is extremely impressive.
+
+When Ronaldo misses from 12 yards, it&apos;s big news. They don&apos;t come much cooler than CR7 when placing the ball on the spot.'
+
+        </item>
+        <item>
+
+"Ronaldo is king of the step-over and has plenty more tricks up his sleeve that, with the help of his lightning pace, can take him past defenders as if they weren&apos;t there.
+
+Whilst Ronaldo&apos;s skill and technique cannot be questioned, he can be guilty of one step-over too many or a bit of flamboyance and showmanship that wasn&apos;t really necessary; sometimes costing his team possession."
+
+
+        </item>
+        <item>
+
+
+"Physically, Ronaldo is as close to perfection as it gets for the modern day footballer. At 6 foot 2, he&apos;s got the height and with the help of his impecible physique, he has the strength of an ox.
+
+Where Messi has the edge with skill and technique, Ronaldo makes up for with strength and speed."
+
+
+
+        </item>
+        <item>
+"In contrast to Messi, Ronaldo has often been the subject of frustration for both fans and team-mates, often guilty of trying to do too much on his own when using a team mate might have been a better option.
+
+Despite this issue, you cannot ignore the fact that Ronaldo&apos;s assist record is a very healthy one, although someway short of Messi."
+
+        </item>
+        <item>
+
+
+"Ronaldo has received much criticism for this part of his game, often being accused of going down too easily or feigning injury to the benefit of his team.
+
+One might argue that it is his undeniable passion for the game and will to win that sometimes gets the better of him when decisions do not go his way.
+
+He notched up 7 yellows and 1 red in all competitions in the 2013/14 season."
+
+        </item>
+        <item>
+
+           " Ronaldo has sometimes had to accept life in the shadow of Messi, which for someone of Ronaldo&apos;s talent and effectiveness, must be frustrating.
+
+However, there is no doubting that since Ronaldo&apos;s move to Spain, the gap has grown ever smaller and now - certainly in terms of goals at least - there is a great case for claiming the 2 players are now on a par, or perhaps, that Ronaldo has even overtaken the Argentinian. With Messi&apos;s 2013 progressing in fits and starts, Ronaldo deservedly won the Ballon d&apos;Or to take the official title of current best player in the world.
+
+Whatever your stance though, there is little doubt that these 2 players are light years ahead of anybody else playing the game today, and will surely go down as 2 of football&apos;s all time greats."
+
+        </item>
+    </string-array>
+
+
+    <string-array name="heading">
+        <item>
+- Goalscoring -
+        </item>
+         <item>
+- Heading -
+        </item>
+         <item>
+- Free Kicks -
+        </item>
+         <item>
+- Penalties -
+        </item>
+         <item>
+- Skill and Technique -
+        </item>
+         <item>
+- Physicality -
+        </item>
+         <item>
+- Team Play -
+        </item>
+         <item>
+- Discipline -
+         </item>
+         <item>
+- Conclusion -
+        </item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+    <string-array name="messirating">
+        <item>9</item>
+        <item>8</item>
+        <item>9</item>
+        <item>8</item>
+        <item>10</item>
+        <item>10</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+
+
+
+
+
+    </string-array>
+    <string-array name="ronaldorating">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>5</item>
+
+
+
+
+
+    </string-array>
+</resources>
